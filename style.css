@@ -1,0 +1,338 @@
+/* ===========================
+   MAIN APP BACKGROUND
+=========================== */
+
+.stApp{
+    background: linear-gradient(135deg,#F4F9FF,#EAF4FF,#DDEEFF);
+    color:#1F2937;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+.title{
+    font-size:58px;
+    font-weight:700;
+    color:#0F172A;
+}
+
+.subtitle{
+    font-size:28px;
+    color:#2563EB;
+    font-weight:600;
+}
+
+/* ===========================
+   TEXT
+=========================== */
+
+p{
+    color:#374151;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    border:1px solid #D1D5DB;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:0.3s;
+
+    margin-bottom:20px;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 28px rgba(37,99,235,.25);
+
+}
+
+/* ===========================
+   METRIC BOXES
+=========================== */
+
+[data-testid="stMetric"]{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    border:1px solid #E5E7EB;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.stButton>button{
+
+    width:100%;
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:10px;
+
+    border:none;
+
+    padding:12px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+    color:white;
+
+}
+
+/* ===========================
+   DOWNLOAD BUTTON
+=========================== */
+
+.stDownloadButton>button{
+
+    width:100%;
+
+    background:#10B981;
+
+    color:white;
+
+    border-radius:10px;
+
+    border:none;
+
+    padding:12px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+}
+
+.stDownloadButton>button:hover{
+
+    background:#059669;
+
+}
+
+/* ===========================
+   PROGRESS BAR
+=========================== */
+
+.stProgress > div > div > div > div{
+
+    background:#2563EB;
+
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+img{
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#4B5563;
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+section[data-testid="stSidebar"]{
+
+    background:#FFFFFF;
+
+    border-right:1px solid #E5E7EB;
+
+}
+
+/* ================================
+PROJECT IMAGE
+================================ */
+
+img{
+
+    border-radius:18px;
+
+}
+
+/* ================================
+CARD TITLE
+================================ */
+
+.card h2{
+
+color:#2563EB;
+
+}
+
+.card h3{
+
+color:#2563EB;
+
+}
+
+/* ================================
+METRIC CARD
+================================ */
+
+div[data-testid="stMetric"]{
+
+text-align:center;
+
+}
+
+/* ================================
+PAGE TITLE
+================================ */
+
+h1{
+
+font-weight:700;
+
+}
+
+/* ================================
+HEADER
+================================ */
+
+h2{
+
+margin-top:20px;
+
+}
+
+/* =============================
+INPUT BOXES
+============================= */
+
+.stTextInput input{
+
+border-radius:10px;
+
+border:1px solid #CBD5E1;
+
+padding:10px;
+
+}
+
+.stTextArea textarea{
+
+border-radius:10px;
+
+border:1px solid #CBD5E1;
+
+}
+
+/* =============================
+SUCCESS ALERT
+============================= */
+
+div[data-baseweb="notification"]{
+
+border-radius:12px;
+
+}
+
+/* =============================
+DOWNLOAD BUTTON
+============================= */
+
+.stDownloadButton button{
+
+background:#10B981;
+
+color:white;
+
+font-size:18px;
+
+font-weight:bold;
+
+border-radius:12px;
+
+padding:12px;
+
+width:100%;
+
+}
+
+.stDownloadButton button:hover{
+
+background:#059669;
+
+}
+
+/* =============================
+LINK BUTTON
+============================= */
+
+a[data-testid="stLinkButton"]{
+
+text-decoration:none;
+
+}
+
+/* =============================
+FOOTER
+============================= */
+
+.footer{
+
+margin-top:30px;
+
+padding:20px;
+
+text-align:center;
+
+color:#64748B;
+
+font-size:18px;
+
+}
